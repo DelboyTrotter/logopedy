@@ -124,10 +124,12 @@ export default {
   methods: {
     ...mapActions([
       'getProfiles',
+      'setActiveProfile',
     ]),
     setActiveItem(profile, index) {
       this.selected = index;
       this.profileDetails = profile;
+      this.setActiveProfile(profile);
     },
     setActiveProfileMenu(menuItem, index) {
       this.activeChip = index;
@@ -139,6 +141,7 @@ export default {
   },
   watch: {
     profiles(items) {
+      this.setActiveProfile(this.profiles[0]);
       this.profileDetails = items[0];
       this.activeProfileMenu = 'Sessions';
       this.activeChip = 0;

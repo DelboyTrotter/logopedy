@@ -6,7 +6,7 @@
   >
     <v-card-text class="pt-1 pb-0 px-0">
       <v-textarea
-        class="text-justify"
+        class="text-justify body-2"
         flat
         auto-grow
         filled
