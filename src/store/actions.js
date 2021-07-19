@@ -18,4 +18,8 @@ export default {
   saveNewSession({ commit }, session) {
     commit(mutationTypes.SAVE_NEW_SESSION, session);
   },
+  async getBillings({ commit }) {
+    const billings = await api.billings.getBillings();
+    commit(mutationTypes.SET_BILLINGS, billings);
+  },
 };

@@ -27,4 +27,7 @@ export default {
   [types.SAVE_NEW_SESSION](state, session) {
     state.activeProfile.sessions.upcoming.push(session);
   },
+  [types.SET_BILLINGS](state, billings) {
+    state.billings = billings;
+  },
 };
