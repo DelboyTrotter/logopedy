@@ -21,14 +21,8 @@
           active-class="active-profile"
         >
           <template v-for="(profile, index) in profiles">
-            <v-divider
-              v-if="profile.divider"
+            <v-list-item
               :key="index"
-              light
-            />
-            <v-list-item 
-              v-else 
-              :key="index" 
               class="rounded"
               :disabled="index === selected"
               @click="setActiveItem(profile, index)"
@@ -43,6 +37,10 @@
                 </v-list-item-content>
               </template>
             </v-list-item>
+            <v-divider
+              :key="profile.name"
+              light
+            />
           </template>
         </v-list-item-group>
       </v-list>
@@ -50,7 +48,7 @@
     <v-col cols="8">
       <v-card
         elevation="0"
-        class="rounded-md mb-2"
+        class="rounded-md"
         color="white"
       >
         <v-list-item two-line color="#f8f8fb">
@@ -63,6 +61,7 @@
         <v-card-actions>
           <v-btn-toggle
             v-model="activeChip"
+            mandatory
             borderless
             dense
             color="white"
@@ -73,14 +72,18 @@
               :key="index"
               class="rounded text-none"
               min-width="112"
-              @click="setActiveProfileMenu(chip)"
+              @click="setActiveProfileMenu(chip, index)"
             >
               <span class="hidden-sm-and-down">{{ chip }}</span>
             </v-btn>
           </v-btn-toggle>
         </v-card-actions>
       </v-card>
-      <component :is="activeProfileMenu" :profileDetails="profileDetails" />
+      <v-divider></v-divider>
+      <component
+        :is="activeProfileMenu"
+        :profileDetails="profileDetails"
+      />
     </v-col>
   </v-row>
   </div>
@@ -126,12 +129,20 @@ export default {
       this.selected = index;
       this.profileDetails = profile;
     },
-    setActiveProfileMenu(menuItem) {
+    setActiveProfileMenu(menuItem, index) {
+      this.activeChip = index;
       this.activeProfileMenu = camelCase(capitalize(menuItem));
     },
   },
   mounted() {
     this.getProfiles();
+  },
+  watch: {
+    profiles(items) {
+      this.profileDetails = items[0];
+      this.activeProfileMenu = 'Sessions';
+      this.activeChip = 0;
+    },
   },
 }
 </script>
