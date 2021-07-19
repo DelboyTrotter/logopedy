@@ -1,0 +1,44 @@
+{
+  "currentMonthTotal": "200",
+  "previousMonthTotal": "400",
+  "currentYearTotal": "300",
+  "paid": [ 
+    {
+      "name": "Effie George",
+      "month": "September 2020",
+      "price": "30KM"
+    },
+    {
+      "name": "Effie George",
+      "month": "September 2020",
+      "price": "30KM"
+    },
+    {
+      "name": "Effie George",
+      "month": "September 2020",
+      "price": "30KM"
+    },
+    {
+      "name": "Effie George",
+      "month": "September 2020",
+      "price": "30KM"
+    }
+  ],
+  "unpaid": [
+    {
+      "name": "Effie George",
+      "month": "September 2020",
+      "price": "30KM"
+    },
+    {
+      "name": "Effie George",
+      "month": "September 2020",
+      "price": "30KM"
+    },
+    {
+      "name": "Effie George",
+      "month": "September 2020",
+      "price": "30KM"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Effie George",
+    "parent": "Michael George",
+    "avatar": "https://cdn.vuetifyjs.com/images/lists/1.jpg",
+    "sessions": {
+      "upcoming": [
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ],
+      "finished": [ 
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ]
+    },
+    "info": {
+      "firstName": "Effie",
+      "lastName": "George",
+      "birth": "10-11-1984",
+      "parent": "Michael George",
+      "phone": "063304034"
+    },
+    "firstReview": "Lorem ipsum dolor sit amet",
+    "invoices": {
+      "paid": [
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        }
+      ],
+      "unpaid": []
+    },
+    "notes": [
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      }
+    ]
+  },
+  {
+    "name": "Nembo Lukeni",
+    "parent": "Michael George",
+    "avatar": "https://cdn.vuetifyjs.com/images/lists/2.jpg",
+    "sessions": {
+      "upcoming": [
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ],
+      "finished": [ 
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ]
+    },
+    "info": {
+      "firstName": "Nembo",
+      "lastName": "Lukeni",
+      "birth": "10-11-1984",
+      "parent": "Michael George",
+      "phone": "063304034"
+    },
+    "firstReview": "Lorem ipsum dolor sit amet",
+    "invoices": {
+      "paid": [
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        }
+      ],
+      "unpaid": []
+    },
+    "notes": [
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      }
+    ]
+  },
+  {
+    "name": "Josip Kristo",
+    "parent": "Michael George",
+    "avatar": "https://cdn.vuetifyjs.com/images/lists/3.jpg",
+    "sessions": {
+      "upcoming": [
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ],
+      "finished": [ 
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ]
+    },
+    "info": {
+      "firstName": "Josip",
+      "lastName": "Kristo",
+      "birth": "10-11-1984",
+      "parent": "Michael George",
+      "phone": "063304034"
+    },
+    "firstReview": "Lorem ipsum dolor sit amet",
+    "invoices": {
+      "paid": [
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        }
+      ],
+      "unpaid": []
+    },
+    "notes": [
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      }
+    ]
+  },
+  {
+    "name": "Josip Vrbic",
+    "parent": "Michael George",
+    "avatar": "https://cdn.vuetifyjs.com/images/lists/4.jpg",
+    "sessions": {
+      "upcoming": [
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ],
+      "finished": [ 
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        },
+        {
+          "date": "Fiday, 9 October",
+          "time": "12:00 - 13:00"
+        }
+      ]
+    },
+    "info": {
+      "firstName": "Josip",
+      "lastName": "Vrbic",
+      "birth": "10-11-1984",
+      "parent": "Michael George",
+      "phone": "063304034"
+    },
+    "firstReview": "Lorem ipsum dolor sit amet",
+    "invoices": {
+      "paid": [
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        },
+        {
+          "name": "Effie George",
+          "month": "September 2020",
+          "price": "25KM"
+        }
+      ],
+      "unpaid": []
+    },
+    "notes": [
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "title": "Speaking progress",
+        "date": "10.08.2020",
+        "description": "Lorem ipsum dolor sit amet"
+      }
+    ]
+  }
+]
