@@ -6,4 +6,7 @@ export default {
     const profiles = await api.profiles.getProfiles();
     commit(mutationTypes.SET_PROFILES, profiles);
   },
+  saveFirstReview({ commit }, profile) {
+    commit(mutationTypes.SAVE_FIRST_REVIEW, profile);
+  },
 };

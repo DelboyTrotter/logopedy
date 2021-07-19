@@ -22,7 +22,7 @@
             width="85%"
             class="white--text"
             color="accent"
-            @click="saveFirstReview"
+            @click="saveFirstReview(profileDetails)"
           >
             Save
           </v-btn>
@@ -35,6 +35,8 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex';
+
 export default {
   name: 'ProfilesFirstReview',
   props: {
@@ -44,7 +46,9 @@ export default {
     },
   },
   methods: {
-    saveFirstReview() {},
+    ...mapActions([
+      'saveFirstReview',
+    ]),
   },
 }
 </script>

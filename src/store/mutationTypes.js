@@ -1,3 +1,4 @@
 export default {
   SET_PROFILES: 'SET_PROFILES',
+  SAVE_FIRST_REVIEW: 'SAVE_FIRST_REVIEW',
 };
