@@ -43,7 +43,13 @@
           </v-btn>
         </v-col>
         <v-col cols="2">
-          <v-btn depressed width="100%">Cancel</v-btn>
+          <v-btn
+            depressed
+            width="100%"
+            @click="$emit('close')"
+          >
+            Cancel
+          </v-btn>
         </v-col>
       </v-row>
     </v-card-text>

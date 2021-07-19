@@ -38,7 +38,11 @@
                   {{ item.time }}
                 </v-list-item-subtitle>
               </v-list-item-content>
-              <v-icon @click="editNote($event, item)">mdi-plus</v-icon>
+              <v-icon 
+                @click="editNote($event, item)"
+              >
+                mdi-circle-edit-outline
+              </v-icon>
             </template>
 
             <v-list-item class="pl-4">
@@ -53,7 +57,11 @@
       </v-card>
     </div>
     <div v-if="showNoteDialog">
-      <Note @save="save" :details="noteDetails"/>
+      <Note
+        @save="save"
+        @close="close"
+        :details="noteDetails"
+      />
     </div>
   </div>
 </template>
@@ -84,9 +92,12 @@ export default {
       'saveNote',
     ]),
     save(note) {
-      console.log('note: ', note);
       this.saveNote(note);
       this.showNoteDialog = false;
+    },
+    close() {
+      this.showNoteDialog = false;
+      this.noteDetails = {};
     },
     editNote(e, item) {
       this.showNoteDialog = true;
