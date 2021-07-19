@@ -15,4 +15,7 @@ export default {
   saveNote({ commit }, note) {
     commit(mutationTypes.SAVE_NOTE, note);
   },
+  saveNewSession({ commit }, session) {
+    commit(mutationTypes.SAVE_NEW_SESSION, session);
+  },
 };

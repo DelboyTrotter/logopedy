@@ -26,8 +26,8 @@
             flat
             auto-grow
             color="accent"
-            v-model="note.description">
-          </v-textarea>
+            v-model="note.description"
+          />
         </v-col>
       </v-row>
       <v-row class="mt-0">
@@ -37,7 +37,7 @@
             class="white--text"
             color="accent"
             width="100%"
-            @click="$emit('save', note)"
+            @click="$emit('save', note);"
           >
             Save
           </v-btn>
@@ -46,7 +46,7 @@
           <v-btn
             depressed
             width="100%"
-            @click="$emit('close')"
+            @click="$emit('close');"
           >
             Cancel
           </v-btn>
@@ -57,6 +57,8 @@
 </template>
 
 <script>
+import { clone } from 'lodash';
+
 export default {
   name: 'ProfilesNote',
   props: {
@@ -77,7 +79,7 @@ export default {
   },
   mounted() {
     if (this.details.id) {
-      this.note = this.details;
+      this.note = clone(this.details);
     }
   },
 }

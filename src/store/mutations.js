@@ -24,4 +24,7 @@ export default {
       state.activeProfile.notes[index] = note;
     }
   },
+  [types.SAVE_NEW_SESSION](state, session) {
+    state.activeProfile.sessions.upcoming.push(session);
+  },
 };
