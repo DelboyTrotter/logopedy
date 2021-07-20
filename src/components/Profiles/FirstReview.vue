@@ -19,7 +19,7 @@
         <v-card-actions>
           <v-btn
             depressed
-            width="85%"
+            width="88%"
             class="white--text"
             color="accent"
             @click="saveFirstReview(profileDetails)"

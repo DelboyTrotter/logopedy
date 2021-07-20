@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Profile from '@/views/Profile/index';
 import Billing from '@/views/Billing/index';
+import Calendar from '@/views/Calendar/index';
 
 Vue.use(Router);
 
@@ -23,6 +24,11 @@ export default new Router({
       path: '/billing',
       name: 'Billing',
       component: Billing,
+    },
+    {
+      path: '/calendar',
+      name: 'Calendar',
+      component: Calendar,
     },
   ],
 });

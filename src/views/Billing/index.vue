@@ -1,8 +1,25 @@
 <template>
   <div>
-    <div class="title">
-      <h4 class="font-size-18">INVOICES</h4>
-    </div>
+    <v-row>
+      <v-col class="d-flex justify-space-between">
+        <div class="title">
+          <h4 class="font-size-18">INVOICES</h4>
+        </div>
+        <v-btn
+          color="accent"
+          class="white--text text-none"
+          @click="loader = 'loading3'"
+        >
+          <v-icon
+            left
+            dark
+          >
+            mdi-plus
+          </v-icon>
+          New invoice
+        </v-btn>
+      </v-col>
+    </v-row>
     <v-row>
       <v-col cols="4" class="col-md-4 col-lg-4 col-12">
         <v-card outlined color="white">
@@ -164,6 +181,5 @@ export default {
   .title {
     font-weight: 600;
     font-size: 16px !important;
-    padding-bottom: 24px;
   }
 </style>
