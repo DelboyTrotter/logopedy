@@ -1,11 +1,12 @@
 <template>
   <div>
     <v-row>
-      <v-col class="d-flex justify-space-between">
+      <v-col class="d-flex justify-space-between pb-0">
         <div class="title">
           <h4 class="font-size-18">PROFILE</h4>
         </div>
         <v-btn
+          to="/new-profile"
           color="accent"
           class="white--text text-none"
           @click="loader = 'loading3'"

@@ -32,8 +32,10 @@
         <v-img src="@/assets/logo.svg" height="40" />
       </div>
       <v-list nav>
+        <div class="caption">MENU</div>
         <v-list-item 
           dense 
+          :ripple="false"
           v-for="item, i of routes" 
           :key="i" 
           :to="{path: `${item.name}`}"
@@ -87,3 +89,39 @@ export default {
   },
 };
 </script>
+
+<style  lang="scss" scoped>
+  .v-list--nav {
+    padding: 30px;
+
+    .caption {
+      color: #6a7187;
+      padding-bottom: 15px;
+    }
+
+    .v-list-item--link:before {
+      background-color: transparent;
+    }
+
+    .v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+      color: #6a7187 !important;
+      transition: 0.5s;
+
+      .v-icon {
+        color: #6a7187;
+      }
+
+      &:hover {
+        color: #ffffff !important;
+
+        .v-icon {
+          color: #ffffff;
+        }
+      }
+    }
+
+    .v-list .v-list-item--active .v-icon {
+      color: #ffffff;
+    }
+  }
+</style>
