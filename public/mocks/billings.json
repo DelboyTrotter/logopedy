@@ -4,24 +4,52 @@
   "currentYearTotal": "300",
   "paid": [ 
     {
+      "id": "6ab3f37f-9786-49df-9f9f-fe9d94ad55d4",
       "name": "Effie George",
       "month": "September 2020",
-      "price": "30KM"
+      "price": "30KM",
+      "date": "10.11.2020.",
+      "subject": "Speech theraphy",
+      "payer": {
+        "name": "Test Testic",
+        "address": "Kneza Mislava 13, 88000 Mostar, BiH"
+      }
     },
     {
+      "id": "1950e60e-a0b1-4b85-bca8-5edcf75247fa",
       "name": "Effie George",
       "month": "September 2020",
-      "price": "30KM"
+      "price": "30KM",
+      "date": "10.11.2020.",
+      "subject": "Speech theraphy",
+      "payer": {
+        "name": "Test Testic",
+        "address": "Kneza Mislava 13, 88000 Mostar, BiH"
+      }
     },
     {
+      "id": "81e11c56-9ebb-47f9-9307-c55d5cafbe9b",
       "name": "Effie George",
       "month": "September 2020",
-      "price": "30KM"
+      "price": "30KM",
+      "date": "10.11.2020.",
+      "subject": "Speech theraphy",
+      "payer": {
+        "name": "Test Testic",
+        "address": "Kneza Mislava 13, 88000 Mostar, BiH"
+      }
     },
     {
+      "id": "59d86468-8ba6-4d5a-a8e0-c1ad7fe47c17",
       "name": "Effie George",
       "month": "September 2020",
-      "price": "30KM"
+      "price": "30KM",
+      "date": "10.11.2020.",
+      "subject": "Speech theraphy",
+      "payer": {
+        "name": "Test Testic",
+        "address": "Kneza Mislava 13, 88000 Mostar, BiH"
+      }
     }
   ],
   "unpaid": [
